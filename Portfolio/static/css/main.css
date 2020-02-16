@@ -1,5 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 /* Navigation Bar */
@@ -32,31 +33,68 @@ border-bottom: 1px solid orange;
 }
 
 .navbar a:hover {
-background-color: white;
-color: black;
+background-color: black;
+color: orange;
 padding-bottom: 15px;
 }
 
 /* Main Introductory Banner */
 
-body {
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: 100% 940px;
-    background-image: url("/static/images/test.jpg")
+.mainbanner {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url('/static/images/number1.jpeg');
+    box-sizing: border-box;
 }
 
-.banner {
+.bannertext {
     color: white;
+    font-size: 35px;
     position: relative;
+    top: 220px;
     left: 30px;
-    top: 300px;
 }
 
 /* Profile */
 
+.profilesection {
+    height: 18vh;
+    background: black;
+    box-sizing: border-box;
+}
+
+.profiletext {
+    text-align: center;
+    color: orange;
+}
+
+.subprofile {
+    height: 12vh;
+    background: gray;
+    box-sizing: border-box;
+}
+
+.subprofiletext {
+    color: yello;
+}
+
+.subprofiletext img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
 /* Skills */
 
+.skillsection {
+    height: 30vh;
+    background: white;
+    box-sizing: border-box;
+}
+
+.skilltext {
+    color: red;
+}
 /* Projects */
 
 /* Contact */
