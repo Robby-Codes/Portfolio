@@ -74,15 +74,21 @@ padding-bottom: 15px;
 }
 
 .subprofile {
-    height: 12vh;
+    height: 50vh;
     background: rgb(128, 110, 110);
     box-sizing: border-box;
 }
 
+.subprofile h1 {
+    color: black;
+    text-align: center;
+    padding: 50px;
+}
+
 .subprofile img {
     position: relative;
-    max-height: 60px;
-    max-width: 60px;
+    max-height: 80px;
+    max-width: 80px;
 }
 
 .subprofile p {
@@ -92,28 +98,51 @@ padding-bottom: 15px;
 
 .subprofile table {
     position: relative;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.moveright {
-    padding-right: 30px;
+    width: 80%;
+    margin: auto;
 }
 
 /* Skills */
 
 .skillsection {
-    height: 30vh;
+    height: 50vh;
     background: rgb(221, 221, 221);
     box-sizing: border-box;
 }
 
-.skilltext {
-    color: red;
+.skilltext h1 {
+    text-align: center;
+    padding: 50px;
 }
+
+.skilltext table {
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+.skilltext label {
+    background-color: rgb(175, 16, 16);
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 105px;
+    padding: 10px 150px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(175, 16, 16);
+    border-radius: 2%;
+}
+
+.skilltext .shorten {
+    padding: 10px 75px;
+    width: 50px;
+}
+
+.skilltext label:hover {
+    background-color: white;
+    color: rgb(175, 16, 16);
+}
+
 /* Projects */
 
 .projectsection {
