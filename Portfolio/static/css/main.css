@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -59,36 +63,51 @@ padding-bottom: 15px;
 /* Profile */
 
 .profilesection {
-    height: 18vh;
-    background: black;
+    height: 20vh;
+    background: rgb(221, 221, 221);
     box-sizing: border-box;
 }
 
 .profiletext {
-    text-align: center;
-    color: orange;
+    text-align: left;
+    color: black;
 }
 
 .subprofile {
     height: 12vh;
-    background: gray;
+    background: rgb(128, 110, 110);
     box-sizing: border-box;
 }
 
-.subprofiletext {
-    color: yello;
+.subprofile img {
+    position: relative;
+    max-height: 60px;
+    max-width: 60px;
 }
 
-.subprofiletext img {
-    max-width: 100px;
-    max-height: 100px;
+.subprofile p {
+    position: relative;
+    color: purple;
+}
+
+.subprofile table {
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.moveright {
+    padding-right: 30px;
 }
 
 /* Skills */
 
 .skillsection {
     height: 30vh;
-    background: white;
+    background: rgb(221, 221, 221);
     box-sizing: border-box;
 }
 
@@ -97,4 +116,16 @@ padding-bottom: 15px;
 }
 /* Projects */
 
+.projectsection {
+    height: 12vh;
+    background: rgb(128, 110, 110);
+    box-sizing: border-box;
+}
+
 /* Contact */
+
+.contact {
+    height: 12vh;
+    background: rgb(39, 39, 39);
+    box-sizing: border-box;
+}
