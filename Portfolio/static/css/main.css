@@ -83,6 +83,7 @@ padding-bottom: 15px;
     color: black;
     text-align: center;
     padding: 50px;
+    text-decoration: underline;
 }
 
 .subprofile img {
@@ -98,7 +99,7 @@ padding-bottom: 15px;
 
 .subprofile table {
     position: relative;
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
@@ -113,6 +114,7 @@ padding-bottom: 15px;
 .skilltext h1 {
     text-align: center;
     padding: 50px;
+    text-decoration: underline;
 }
 
 .skilltext table {
@@ -154,22 +156,31 @@ padding-bottom: 15px;
 /* Contact */
 
 .contact {
-    height: 77vh;
+    height: 100vh;
     color: white;
     background: rgb(58, 58, 58);
     box-sizing: border-box;
 }
 
-.lastmessage {
+.contact table {
     position: relative;
-    padding: 75px;
-    font-size: 15px;
+    margin: auto;
+    padding: 80px;
 }
 
 .contact-info {
-    position: relative;
-    padding: 50px;
-    font-size: 14px;
-    bottom: 475px;
-    left: 500px;
+    vertical-align: top;
+    font-style: italic;
+}
+
+.contact-info img {
+    max-width: 30px;
+    max-height: 30px;
+    padding-right: 10px;
+}
+
+.copyright {
+    font-size: 13px;
+    text-align: center;
+    padding-top: 45px;
 }
