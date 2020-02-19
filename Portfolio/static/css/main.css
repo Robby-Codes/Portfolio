@@ -10,21 +10,21 @@ html, body {
 /* Navigation Bar */
 
 .navbar {
-opacity: 1;
-overflow: hidden;
-position: fixed;
-top: 0;
-width: 100%;
+    opacity: 1;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar a {
-float: right;
-color: white;
-padding: 14px 16px;
-text-align: right;
-text-decoration: none;
-font-size: 20px;
-border-bottom: 1px solid orange;
+    float: right;
+    color: #8e8d8a;
+    padding: 14px 16px;
+    text-align: right;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 1px solid #e85a4f;
 }
 
 .navbar #Home {
@@ -37,9 +37,9 @@ border-bottom: 1px solid orange;
 }
 
 .navbar a:hover {
-background-color: black;
-color: orange;
-padding-bottom: 15px;
+    background-color: #eae7dc;
+    color: #e85a4f;
+    padding-bottom: 15px;
 }
 
 /* Main Introductory Banner */
@@ -48,12 +48,12 @@ padding-bottom: 15px;
     height: 100vh;
     background-position: center;
     background-size: cover;
-    background-image: url('/static/images/number1.jpeg');
+    background-image: url('/static/images/mainbanner.jpg');
     box-sizing: border-box;
 }
 
 .bannertext {
-    color: white;
+    color: #8e8d8a;
     font-size: 35px;
     position: relative;
     top: 220px;
@@ -63,27 +63,53 @@ padding-bottom: 15px;
 /* Profile */
 
 .profilesection {
-    height: 20vh;
-    background: rgb(185, 185, 185);
+    height: 50vh;
+    background: rgb(230, 230, 230);
     box-sizing: border-box;
 }
 
-.profiletext {
-    text-align: left;
-    color: black;
+.profilesection h1 {
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: underline;
+}
+
+.profilesection h4 {
+    position: relative;
+    text-align: center;
+}
+
+.profilesection table {
+    position: relative;
+    width: 60%;
+    padding: 50px;
+    margin: auto;
+}
+
+.profilesection table img {
+    max-width: 250px;
+    max-height: 250px;
+    position: relative;
+    border-radius: 45%;
+    border: 5px solid #d8c3a5;
 }
 
 .subprofile {
     height: 50vh;
-    background: rgb(131, 123, 123);
+    background: rgb(230, 230, 230);
     box-sizing: border-box;
 }
 
 .subprofile h1 {
-    color: black;
+    color: #e85a4f;
     text-align: center;
     padding: 50px;
     text-decoration: underline;
+}
+
+.subprofile h2 {
+    color: #e85a4f;
 }
 
 .subprofile img {
@@ -94,24 +120,26 @@ padding-bottom: 15px;
 
 .subprofile p {
     position: relative;
-    color: purple;
+    color: #8e8d8a;
 }
 
 .subprofile table {
     position: relative;
     width: 60%;
     margin: auto;
+    padding: 2px solid #e85a4f;
 }
 
 /* Skills */
 
 .skillsection {
     height: 50vh;
-    background: rgb(185, 185, 185);
+    background: rgb(230, 230, 230);
     box-sizing: border-box;
 }
 
 .skilltext h1 {
+    color: #e85a4f;
     text-align: center;
     padding: 50px;
     text-decoration: underline;
@@ -124,14 +152,14 @@ padding-bottom: 15px;
 }
 
 .skilltext label {
-    background-color: rgb(175, 16, 16);
+    background-color: #e85a4f;
     text-align: center;
     color: white;
     display: inline-block;
     width: 100px;
     padding: 10px 180px;
     margin-bottom: 20px;
-    border: 1px solid rgb(175, 16, 16);
+    border: 1px solid #e85a4f;
     border-radius: 2%;
 }
 
@@ -149,8 +177,13 @@ padding-bottom: 15px;
 
 .projectsection {
     height: 50vh;
-    background: rgb(128, 110, 110);
+    background: rgb(230, 230, 230);
     box-sizing: border-box;
+}
+
+.projectsection table {
+    position: relative;
+    margin: auto auto;
 }
 
 /* Contact */
