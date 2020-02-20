@@ -70,29 +70,25 @@ html, body {
 
 .profilesection h1 {
     position: relative;
-    text-align: center;
-    padding-top: 50px;
-    text-decoration: underline;
+    padding: 30px;
+    font-size: 100px;
+    color: #8e8d8a;
+    opacity: 0.5;
 }
 
 .profilesection h4 {
     position: relative;
+    padding-bottom: 20px;
     text-align: center;
+    font-size: 25px;
+    color: #e85a4f;
 }
 
-.profilesection table {
+.profilesection p {
     position: relative;
-    width: 60%;
-    padding: 50px;
-    margin: auto;
-}
-
-.profilesection table img {
-    max-width: 250px;
-    max-height: 250px;
-    position: relative;
-    border-radius: 45%;
-    border: 5px solid #d8c3a5;
+    text-align: center;
+    color: #8e8d8a;
+    padding-bottom: 30px;
 }
 
 .subprofile {
