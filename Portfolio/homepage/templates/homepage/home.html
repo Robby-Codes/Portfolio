@@ -26,7 +26,7 @@
         
         <main>
             <section class="profilesection" id="Profile">
-                <h1>Profile</h1>
+                <h1>PROFILE</h1>
                 <h4>Welcome! My name is Roberto Guerra and I am a Software Developer.</h4>
                 <p>
                     I am a software developer who specializes in Front End and Back End Development
@@ -39,12 +39,10 @@
                     learning new things to tackle new challanges!
                 </p>
                 <p>
-                    Fing Out More
+                    <label><a href="#Contact">Find Out More</a></label>
                 </p>
-            </section>
 
-            <section class="subprofile">
-                <h1>Why work with me?</h1>
+                <h4>Why work with me?</h4>
                 <table>
                     <tr>
                         <td align="center">
@@ -70,7 +68,7 @@
                             </p>
                         </td>
                         <td align="center">
-                            <h2>Passionate about Code</h2>
+                            <h2>Passionate</h2>
                             <p>
                                 Motivated and energized by code.
                                 <br>
@@ -97,7 +95,7 @@
 
             <section class="skillsection" id="Skills">
                 <div class="skilltext">
-                    <h1>My Technical Skill</h1>
+                    <h1>SKILLS</h1>
                     <table>
                         <tr>
                             <td colspan="2"><label>Python 3</label></td>
@@ -114,25 +112,66 @@
                             <td><label class="shorten">GitHub</label></td>
                         </tr>
                     </table>
+                    <h2>What I Can Do With These Technologies</h2>
+                    <table>
+                        <tr>
+                            <td><p>Front End</p></td>
+                            <td><p>Back End</p></td>
+                            <td><p id="general">
+                                <br>
+                                General Programming
+                                <br><br>
+                                GUI Applications,<br>Data Science,<br>Bots,<br>Etc.
+                            </p></td>
+                        </tr>
+                    </table>
                 </div>
             </section>
 
             <section class="projectsection" id="Projects">
+                <h1>PROJECTS</h1>
                 <table>
                     <tr>
+                        <td class="project-type" align="center" colspan="2"><strong>Graphical User Interface Applications</strong></td>
+                    </tr>
+                    <tr>
                         <td>
-                            image
+                            <img class="project-image" src="{% static 'images/BBBanner.png' %}">
                         </td>
                         <td>
-                            description
+                            <h2>Budget Buddy</h2>
+                            <p>
+                                Constructed a graphical user interface that 
+                                allows the user to establish budgets and keep 
+                                track of earnings, spending, and savings. Just 
+                                log in using whatever username or password you 
+                                want, create a custom security question, and 
+                                enter your own personal Budget Buddy dashboard 
+                                to begin tracking your finances.
+                            </p>
+                            <label>Python 3</label>
+                            <label>Kivy</label>
+                            <br>
+                            <a href="https://github.com/Robby-Codes/Budget-Buddy"><img src="{% static 'images/github.png' %}"></a>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            image
+                            <img class="project-image" src="{% static 'images/AMIcon.ico' %}">
                         </td>
                         <td>
-                            description
+                            <h2>Arithmetic Master</h2>
+                            <p>
+                                A graphical user interface developed to allow 
+                                anyone to train their mental arithmetic skills. 
+                                With this software, one can train their ability 
+                                to perform mental addition, subtraction, 
+                                multiplication, and division.
+                            </p>
+                            <label>Python 3</label>
+                            <label>Kivy</label>
+                            <br>
+                            <a href="https://github.com/Robby-Codes/Arithmetic-Master"><img src="{% static 'images/github.png' %}"></a>
                         </td>
                     </tr>
                 </table>

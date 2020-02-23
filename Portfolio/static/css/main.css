@@ -63,7 +63,7 @@ html, body {
 /* Profile */
 
 .profilesection {
-    height: 50vh;
+    height: 800px;
     background: rgb(230, 230, 230);
     box-sizing: border-box;
 }
@@ -76,7 +76,7 @@ html, body {
     opacity: 0.5;
 }
 
-.profilesection h4 {
+.profilesection h4, h2{
     position: relative;
     padding-bottom: 20px;
     text-align: center;
@@ -91,35 +91,13 @@ html, body {
     padding-bottom: 30px;
 }
 
-.subprofile {
-    height: 50vh;
-    background: rgb(230, 230, 230);
-    box-sizing: border-box;
-}
-
-.subprofile h1 {
-    color: #e85a4f;
-    text-align: center;
-    padding: 50px;
-    text-decoration: underline;
-}
-
-.subprofile h2 {
-    color: #e85a4f;
-}
-
-.subprofile img {
+.profilesection img {
     position: relative;
     max-height: 80px;
     max-width: 80px;
 }
 
-.subprofile p {
-    position: relative;
-    color: #8e8d8a;
-}
-
-.subprofile table {
+.profilesection table {
     position: relative;
     width: 60%;
     margin: auto;
@@ -129,16 +107,53 @@ html, body {
 /* Skills */
 
 .skillsection {
-    height: 50vh;
+    height: 700px;
     background: rgb(230, 230, 230);
     box-sizing: border-box;
 }
 
 .skilltext h1 {
+    position: relative;
+    padding: 30px;
+    font-size: 100px;
+    color: #8e8d8a;
+    opacity: 0.5;
+}
+
+.skilltext h2 {
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.skilltext p {
+    display: block;
+    height: 150px;
+    width: 150px;
+    line-height: 150px;
+
+    -moz-border-radius: 80px; /* or 50% */
+    border-radius: 80px; /* or 50% */
+
+    background-color: rgb(230, 230, 230);
     color: #e85a4f;
+    border: 5px solid #e85a4f;
     text-align: center;
-    padding: 50px;
-    text-decoration: underline;
+    font-size: 2em;
+}
+
+#general {
+    display: block;
+    height: 150px;
+    width: 150px;
+    line-height: 20px;
+
+    -moz-border-radius: 30px; /* or 50% */
+    border-radius: 30px; /* or 50% */
+
+    background-color: rgb(230, 230, 230);
+    color: #e85a4f;
+    text-align: left;
+    font-size: 15px;
 }
 
 .skilltext table {
@@ -172,20 +187,69 @@ html, body {
 /* Projects */
 
 .projectsection {
-    height: 50vh;
+    height: 900px;
     background: rgb(230, 230, 230);
     box-sizing: border-box;
 }
 
-.projectsection table {
+.projectsection h1 {
     position: relative;
-    margin: auto auto;
+    padding: 30px;
+    font-size: 100px;
+    color: #8e8d8a;
+    opacity: 0.5;
+}
+
+.projectsection table {
+    background-color: white;
+    position: relative;
+    padding: 50px;
+    border-radius: 5%;
+    margin: auto;
+}
+
+.project-type {
+    font-size: 30px;
+    padding: 20px;
+    background-color: #e85a4f;
+}
+
+.projectsection a img {
+    position: relative;
+    padding-top: 10px;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.project-image {
+    position: relative;
+    max-width: 200px;
+    max-height: 200px;
+    padding-right: 20px;
+}
+
+.projectsection h2 {
+    position: relative;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.projectsection p {
+    color: #8e8d8a;
+    padding-bottom: 10px;
+}
+
+.projectsection label {
+    padding: 5px;
+    border-radius: 5%;
+    color: white;
+    background-color: #e85a4f;
 }
 
 /* Contact */
 
 .contact {
-    height: 100vh;
+    height: 800px;
     color: white;
     background: rgb(58, 58, 58);
     box-sizing: border-box;
