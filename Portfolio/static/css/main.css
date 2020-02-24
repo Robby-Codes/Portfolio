@@ -10,36 +10,30 @@ html, body {
 /* Navigation Bar */
 
 .navbar {
-    opacity: 1;
+    opacity: 0.9;
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
+    background: #656c5c;
 }
 
 .navbar a {
     float: right;
-    color: #8e8d8a;
-    padding: 14px 16px;
+    color: #b96954;
+    padding: 10px 16px;
     text-align: right;
     text-decoration: none;
     font-size: 20px;
-    border-bottom: 1px solid #e85a4f;
 }
 
 .navbar #Home {
     float: left;
-    font-size: 25px;
-}
-
-.navbar #Home:hover {
-    padding: 14px;
 }
 
 .navbar a:hover {
-    background-color: #eae7dc;
     color: #e85a4f;
-    padding-bottom: 15px;
 }
 
 /* Main Introductory Banner */
@@ -48,12 +42,12 @@ html, body {
     height: 100vh;
     background-position: center;
     background-size: cover;
-    background-image: url('/static/images/mainbanner.jpg');
+    background-image: url('/static/images/spots.jpg');
     box-sizing: border-box;
 }
 
 .bannertext {
-    color: #8e8d8a;
+    color: black;
     font-size: 35px;
     position: relative;
     top: 220px;
@@ -64,15 +58,16 @@ html, body {
 
 .profilesection {
     height: 800px;
-    background: rgb(230, 230, 230);
+    background:  #e4d3b7;
     box-sizing: border-box;
+    
 }
 
 .profilesection h1 {
     position: relative;
     padding: 30px;
     font-size: 100px;
-    color: #8e8d8a;
+    color: #b96954;
     opacity: 0.5;
 }
 
@@ -81,13 +76,13 @@ html, body {
     padding-bottom: 20px;
     text-align: center;
     font-size: 25px;
-    color: #e85a4f;
+    color: #589880;
 }
 
 .profilesection p {
     position: relative;
     text-align: center;
-    color: #8e8d8a;
+    color: #656c5c;
     padding-bottom: 30px;
 }
 
@@ -108,7 +103,7 @@ html, body {
 
 .skillsection {
     height: 700px;
-    background: rgb(230, 230, 230);
+    background: #f4c48e;
     box-sizing: border-box;
 }
 
@@ -116,7 +111,7 @@ html, body {
     position: relative;
     padding: 30px;
     font-size: 100px;
-    color: #8e8d8a;
+    color: #b96954;
     opacity: 0.5;
 }
 
@@ -134,11 +129,12 @@ html, body {
     -moz-border-radius: 80px; /* or 50% */
     border-radius: 80px; /* or 50% */
 
-    background-color: rgb(230, 230, 230);
-    color: #e85a4f;
-    border: 5px solid #e85a4f;
+    background-color: #f4c48e;
+    color: #589880;
+    border: 7px solid #589880;
     text-align: center;
     font-size: 2em;
+    margin: 20px;
 }
 
 #general {
@@ -150,8 +146,6 @@ html, body {
     -moz-border-radius: 30px; /* or 50% */
     border-radius: 30px; /* or 50% */
 
-    background-color: rgb(230, 230, 230);
-    color: #e85a4f;
     text-align: left;
     font-size: 15px;
 }
@@ -163,32 +157,33 @@ html, body {
 }
 
 .skilltext label {
+    position: relative;
     background-color: #e85a4f;
     text-align: center;
     color: white;
     display: inline-block;
     width: 100px;
-    padding: 10px 180px;
+    padding: 10px 130px;
     margin-bottom: 20px;
     border: 1px solid #e85a4f;
     border-radius: 2%;
 }
 
 .skilltext .shorten {
-    padding: 10px 87px;
-    width: 50px;
+    padding: 10px 70px;
+    width: 35px;
 }
 
 .skilltext label:hover {
     background-color: white;
-    color: rgb(175, 16, 16);
+    color: #e85a4f;
 }
 
 /* Projects */
 
 .projectsection {
     height: 900px;
-    background: rgb(230, 230, 230);
+    background: #e4d3b7;
     box-sizing: border-box;
 }
 
@@ -196,7 +191,7 @@ html, body {
     position: relative;
     padding: 30px;
     font-size: 100px;
-    color: #8e8d8a;
+    color: #b96954;
     opacity: 0.5;
 }
 
@@ -232,10 +227,11 @@ html, body {
     position: relative;
     text-align: left;
     padding-top: 10px;
+    color: #589880;
 }
 
 .projectsection p {
-    color: #8e8d8a;
+    color: #656c5c;
     padding-bottom: 10px;
 }
 
@@ -250,7 +246,7 @@ html, body {
 
 .contact {
     height: 800px;
-    color: white;
+    color: #589880;
     background: rgb(58, 58, 58);
     box-sizing: border-box;
 }
@@ -269,11 +265,43 @@ html, body {
 .contact-info img {
     max-width: 30px;
     max-height: 30px;
-    padding-right: 10px;
+    padding: 5px;
+    background-color: #e85a4f;
+    border-radius: 30%;
+}
+
+.about-me {
+    color: white;
+    font-size: 15px;
+}
+
+.info {
+    font-size: 13px;
+}
+
+.lastmessage ul {
+    color: white;
+}
+
+.contact-info label {
+    color: white;
+    background-color: #e85a4f;
+    border-radius: 5%;
+    border: 2px solid #e85a4f;
+    font-size: 30px;
+    font-style: normal;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+.contact-info label img {
+    vertical-align: middle;
 }
 
 .copyright {
     font-size: 13px;
     text-align: center;
     padding-top: 45px;
+    color: white;
 }
