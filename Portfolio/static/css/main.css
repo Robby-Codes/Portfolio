@@ -57,7 +57,7 @@ html, body {
 /* Profile */
 
 .profilesection {
-    height: 800px;
+    height: 900px;
     background:  #e4d3b7;
     box-sizing: border-box;
     
@@ -86,6 +86,12 @@ html, body {
     padding-bottom: 30px;
 }
 
+.find-out {
+    background-color: #e85a4f;
+    padding: 5px;
+    border-radius: 5%;
+}
+
 .profilesection img {
     position: relative;
     max-height: 80px;
@@ -94,15 +100,16 @@ html, body {
 
 .profilesection table {
     position: relative;
-    width: 60%;
+    width: 80%;
     margin: auto;
     padding: 2px solid #e85a4f;
+    border-spacing: 20px;
 }
 
 /* Skills */
 
 .skillsection {
-    height: 700px;
+    height: 800px;
     background: #f4c48e;
     box-sizing: border-box;
 }
@@ -245,7 +252,7 @@ html, body {
 /* Contact */
 
 .contact {
-    height: 800px;
+    height: 900px;
     color: #589880;
     background: rgb(58, 58, 58);
     box-sizing: border-box;
@@ -254,7 +261,8 @@ html, body {
 .contact table {
     position: relative;
     margin: auto;
-    padding: 80px;
+    padding: 50px;
+    border-spacing: 25px;
 }
 
 .contact-info {
